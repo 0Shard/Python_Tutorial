@@ -1,0 +1,86 @@
+Code For Help 
+
+# Introduction to Basic Data Types and Variables
+integer_variable = 10               # Integer: Whole numbers
+float_variable = 3.14               # Float: Decimal numbers
+string_variable = "Hello, World!"   # String: Text
+boolean_variable = True             # Boolean: True or False values
+
+# Working with Lists
+my_list = [1, 2, 3, 4, 5]            # Creating a list
+my_list.append(6)                   # Adding an element to the end of the list
+my_list.insert(2, 10)               # Inserting an element at a specific index
+last_element = my_list.pop()        # Removing and returning the last element of the list
+my_list.remove(3)                   # Removing the first occurrence of a specified value
+del my_list[1]                      # Removing an element by index
+del my_list[1:3]                    # Removing elements by slice
+my_list[0] = 'a'                    # Modifying an element by index
+first_element = my_list[0]          # Accessing an element by index
+subset = my_list[1:]                # Slicing to access a range of elements
+
+print("List after all operations:", my_list)
+print("First element:", first_element)
+print("Subset:", subset)
+
+# Exploring Dictionaries
+my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}  # Creating a dictionary
+my_dict['age'] = 31                 # Modifying a value
+my_dict['gender'] = 'Female'        # Adding a new key-value pair
+del my_dict['city']                 # Removing a key-value pair
+print("Dictionary after changes:", my_dict)
+
+# Manipulating Sets
+my_set = {1, 2, 3, 4, 5}             # Creating a set
+my_set.add(6)                       # Adding an element
+my_set.remove(3)                    # Removing an element
+print("Set after modifications:", my_set)
+
+# Understanding Tuples
+my_tuple = (1, 'apple', True, 3.14) # Creating a tuple
+first_element = my_tuple[0]         # Accessing an element by index
+subset = my_tuple[1:]               # Slicing to access a range of elements
+print("Tuple:", my_tuple)
+print("First element of tuple:", first_element)
+print("Subset of tuple:", subset)
+
+# Demonstrating Control Flow Structures
+
+# Conditional Statements
+x, y = 10, 20
+if x < y:
+    print("x is less than y")
+elif x == y:
+    print("x is equal to y")
+else:
+    print("x is greater than y")
+
+# Loops
+
+# For Loop - Iterates over a sequence
+for i in range(5):
+    print("Iteration (For loop):", i)
+
+# While Loop - Repeats as long as a condition is true
+i = 0
+while i < 5:
+    print("Iteration (While loop):", i)
+    i += 1
+
+# Basic String Operations
+str1 = "Hello"
+str2 = "World"
+concatenated_str = str1 + " " + str2  # Concatenation
+print("Concatenated String:", concatenated_str)
+
+print("Length of String:", len(concatenated_str))  # String Length
+
+# String Formatting using f-strings
+formatted_str = f"My name is {name} and I am {age} years old."
+print("Formatted String:", formatted_str)
+
+# String Indexing and Slicing
+print("First character of String:", concatenated_str[0])
+print("Substring of String:", concatenated_str[6:])
+
+# Membership Check
+print("Is 'Hello' in String?", 'Hello' in concatenated_str)
