@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-    <!-- Multiple Choice Questions -->
+    <!-- Question 1 -->
     <question type="multichoice">
         <name>
             <text>What is a variable in Python?</text>
@@ -21,6 +21,8 @@
             <text>D) A Python library</text>
         </answer>
     </question>
+    
+    <!-- Question 2 -->
     <question type="multichoice">
         <name>
             <text>Which of the following is a valid variable name in Python?</text>
@@ -41,75 +43,40 @@
             <text>D) variable@1</text>
         </answer>
     </question>
-    <question type="multichoice">
+    
+    <!-- Additional questions should follow the same pattern. -->
+    
+    <!-- True or False Question -->
+    <question type="truefalse">
         <name>
-            <text>Which data type would you use to represent a person's age in years?</text>
+            <text>The variable name Class is recommended for use in Python.</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[<p>Which data type would you use to represent a person's age in years?</p>]]></text>
+            <text><![CDATA[<p>True or False: The variable name <em>Class</em> is recommended for use in Python.</p>]]></text>
         </questiontext>
         <answer fraction="0">
-            <text>A) String</text>
-        </answer>
-        <answer fraction="0">
-            <text>B) Boolean</text>
+            <text>True</text>
         </answer>
         <answer fraction="100">
-            <text>C) Integer</text>
+            <text>False</text>
         </answer>
-        <answer fraction="0">
-            <text>D) Float</text>
+        <feedback format="html">
+            <text><![CDATA[<p>It is not recommended because class is a keyword in Python, even though capitalization differs, it's best to avoid confusion.</p>]]></text>
+        </feedback>
+    </question>
+    
+    <!-- Short Answer Question -->
+    <question type="shortanswer">
+        <name>
+            <text>What is dynamic typing in Python?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>What is dynamic typing in Python?</p>]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text>Dynamic typing means that the Python interpreter infers the type of a variable at runtime. You do not need to declare the type of a variable when you create it, and the type can change after it is set.</text>
         </answer>
     </question>
-    <question type="multichoice">
-        <name>
-            <text>What does the following line of code do? name = "Alice"</text>
-        </name>
-        <questiontext format="html">
-            <text><![CDATA[<p>What does the following line of code do? <code>name = "Alice"</code></p>]]></text>
-        </questiontext>
-        <answer fraction="0">
-            <text>A) Compares a variable name to the string "Alice"</text>
-        </answer>
-        <answer fraction="100">
-            <text>B) Sets the variable name equal to the string "Alice"</text>
-        </answer>
-        <answer fraction="0">
-            <text>C) Declares a string variable without initializing it</text>
-        </answer>
-        <answer fraction="0">
-            <text>D) Outputs the string "Alice" to the console</text>
-        </answer>
-    </question>
-    <question type="multichoice">
-        <name>
-            <text>Which of the following is a Boolean data type in Python?</text>
-        </name>
-        <questiontext format="html">
-            <text><![CDATA[<p>Which of the following is a Boolean data type in Python?</p>]]></text>
-        </questiontext>
-        <answer fraction="0">
-            <text>A) "True"</text>
-        </answer>
-        <answer fraction="0">
-            <text>B) 'False'</text>
-        </answer>
-        <answer fraction="100">
-            <text>C) True</text>
-        </answer>
-        <answer fraction="0">
-            <text>D) "true"</text>
-        </answer>
-    </question>
-    <question type="multichoice">
-        <name>
-            <text>Which operator would you use to assign a value to a variable?</text>
-        </name>
-        <questiontext format="html">
-            <text><![CDATA[<p>Which operator would you use to assign a value to a variable?</p>]]></text>
-        </questiontext>
-        <answer fraction="0">
-            <text>A) ==</text>
-        </answer>
-        <answer fraction="100">
-            <text>B
+    
+    <!-- Add additional short answer questions here. -->
+</quiz>
