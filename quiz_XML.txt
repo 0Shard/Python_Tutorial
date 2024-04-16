@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <!-- Multiple Choice Questions -->
+    <question type="multichoice">
+        <name>
+            <text>What is a variable in Python?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>What is a variable in Python?</p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) A type of Python function</text>
+        </answer>
+        <answer fraction="100">
+            <text>B) A reserved memory location to store values</text>
+        </answer>
+        <answer fraction="0">
+            <text>C) A specific data type</text>
+        </answer>
+        <answer fraction="0">
+            <text>D) A Python library</text>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Which of the following is a valid variable name in Python?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Which of the following is a valid variable name in Python?</p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) 1_variable</text>
+        </answer>
+        <answer fraction="100">
+            <text>B) variable1</text>
+        </answer>
+        <answer fraction="0">
+            <text>C) variable-1</text>
+        </answer>
+        <answer fraction="0">
+            <text>D) variable@1</text>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Which data type would you use to represent a person's age in years?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Which data type would you use to represent a person's age in years?</p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) String</text>
+        </answer>
+        <answer fraction="0">
+            <text>B) Boolean</text>
+        </answer>
+        <answer fraction="100">
+            <text>C) Integer</text>
+        </answer>
+        <answer fraction="0">
+            <text>D) Float</text>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>What does the following line of code do? name = "Alice"</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>What does the following line of code do? <code>name = "Alice"</code></p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) Compares a variable name to the string "Alice"</text>
+        </answer>
+        <answer fraction="100">
+            <text>B) Sets the variable name equal to the string "Alice"</text>
+        </answer>
+        <answer fraction="0">
+            <text>C) Declares a string variable without initializing it</text>
+        </answer>
+        <answer fraction="0">
+            <text>D) Outputs the string "Alice" to the console</text>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Which of the following is a Boolean data type in Python?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Which of the following is a Boolean data type in Python?</p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) "True"</text>
+        </answer>
+        <answer fraction="0">
+            <text>B) 'False'</text>
+        </answer>
+        <answer fraction="100">
+            <text>C) True</text>
+        </answer>
+        <answer fraction="0">
+            <text>D) "true"</text>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Which operator would you use to assign a value to a variable?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[<p>Which operator would you use to assign a value to a variable?</p>]]></text>
+        </questiontext>
+        <answer fraction="0">
+            <text>A) ==</text>
+        </answer>
+        <answer fraction="100">
+            <text>B
